@@ -37,6 +37,9 @@ function handleTrans(e){
           <option value={"it"}>Italian</option>
           <option value={"es"}>Spanish</option>
           <option value={"zh-hans"}>Chinese</option>
+          <option value={"hi"}>Hindi</option>
+          <option value={"fr"}>French</option>
+          <option value={"ja"}>Japanese</option>
           </select>
 <input value={frText} onChange={(e)=>{setFrtx(e.target.value)}}
  type='text' placeholder='type here to translate'/>
@@ -49,6 +52,10 @@ function handleTrans(e){
           <option value={"it"}>Italian</option>
           <option value={"es"}>Spanish</option>
           <option value={"zh-hans"}>Chinese</option>
+          <option value={"hi"}>Hindi</option>
+          <option value={"fr"}>French</option>
+          <option value={"ja"}>Japanese</option>
+
           </select>
           <input style={{color:"green"}} value={resTx}
  type='text' placeholder='Translated text' disabled="true"/>
