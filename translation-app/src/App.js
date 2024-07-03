@@ -13,6 +13,7 @@ const [resTx,setRestx]=useState("");
 
 function handleTrans(e){
   e.preventDefault();
+  setRestx("Loading.....")
   axios.get(`https://api.mymemory.translated.net/get?q=${frText}&langpair=${fr}|${to}`).then((res)=>{
     console.log(res);
     console.log(res.data.responseData.translatedText)
